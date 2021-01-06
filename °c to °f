@@ -1,0 +1,5 @@
+#輸入攝氏溫度°C轉換為華氏溫度°F
+tempc = input('請輸入攝氏溫度：')
+tempc = float(tempc)
+tempf = tempc * 9 / 5 + 32
+print('攝氏溫度',tempc,'°C =','華氏溫度',tempf,'°F')
