@@ -10,10 +10,9 @@ print('歡迎參加猜數遊戲')
 mi = int(input('請輸入數字區間的最小值'))
 ma = int(input('請輸入數字區間的最大值'))
 r = random.randint(mi, ma)
-answer = 0
 count = 1
 
-while answer != r:
+while True:
     print('請輸入', mi, '~', ma, '的整數')
     answer = int(input())
     if answer == r:
